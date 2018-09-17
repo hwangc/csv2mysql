@@ -1,0 +1,35 @@
+{
+  "name": "@hwangc/csv2mysql",
+  "version": "1.0.1",
+  "description": "This package is based on the package csv2mysql by pkuebler ",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "babel src --presets babel-preset-es2015 --out-dir dist",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwangc/csv2mysql.git"
+  },
+  "keywords": [
+    "csv",
+    "mysql"
+  ],
+  "author": "HwangC <hwangc@hwangc.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwangc/csv2mysql/issues"
+  },
+  "homepage": "https://github.com/hwangc/csv2mysql#readme",
+  "dependencies": {
+    "fast-csv": "^2.4.1",
+    "promise-mysql": "^3.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
