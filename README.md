@@ -6,11 +6,11 @@ This package is based on csv2mysql(https://www.npmjs.com/package/csv2mysql).
 
 ## Installation
 
-  `npm install @hwangc/csv2mysql`
+  `npm install insert-csv-to-mysql`
 
 ## Usage
 
-    var csv2mysql = require('@hwangc/csv2mysql');
+    var csv2mysql = require('insert-csv-to-mysql');
     csv2mysql([options], [path]);
 
 ## Tests

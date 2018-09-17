@@ -1,6 +1,6 @@
 {
-  "name": "@hwangc/csv2mysql",
-  "version": "1.0.1",
+  "name": "insert-csv-to-mysql",
+  "version": "0.1.0",
   "description": "This package is based on the package csv2mysql by pkuebler ",
   "main": "./dist/index.js",
   "scripts": {
